@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: aqua;
+  background-color: #f2f2f2;
   color: black;
 }
 
@@ -28,6 +28,7 @@ nav li {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 a:visited {
@@ -35,4 +36,44 @@ a:visited {
 }
 
 a:hover {
+}
+
+/* main divs */
+
+.div1 {
+  width: 100%;
+  height: 50px;
+  background-color: #383838;
+  display: flex;
+  justify-content: center;
+}
+
+.div2 {
+  width: 100%;
+  height: 50px;
+  background-color: #066163;
+  display: flex;
+  justify-content: center;
+}
+
+.div3 {
+  width: 100%;
+  height: 50px;
+  background-color: #cdbe78;
+  display: flex;
+  justify-content: center;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.footerContent {
+  display: inline-block;
+  padding: 0 20px;
 }
