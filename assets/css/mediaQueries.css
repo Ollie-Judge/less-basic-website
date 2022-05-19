@@ -27,22 +27,23 @@
 
   /* Footer */
 
-  footer {
+  .footerContainer {
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    text-align: center;
+    justify-content: space-between;
   }
 
-  .footerContainer {
-    width: 100%;
-    flex-direction: row;
+  .footerContent {
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
   }
 
   .middleContent {
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-end;
   }
 }
