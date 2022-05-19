@@ -9,13 +9,24 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" type="text/css" href="assets/css/mediaQueries.css" />
     <title>Less Basic Website</title>
   </head>
   <body>
     <header>
-      <div class="title"><a href="index.html">Less Basic Website</a></div>
+      <div class="title">
+        <div class="titleContainer">
+          <a href="index.html"><h3>Less Basic Website</h3></a>
+        </div>
+
+        <div class="mobileButtonContainer">
+          <button class="mobileButton" id="mobileButton">
+            <i class="fa fa-bars"></i>
+          </button>
+        </div>
+      </div>
       <nav>
-        <ul>
+        <ul class="navUl" id="navUl">
           <li><a href="index.html">Home</a></li>
           <li><a href="photos.html">Photo Gallery</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -25,43 +36,60 @@
     </header>
 
     <main>
-      <div class="div1">
-        <h4>Title</h4>
-        <p>
-          This is a not so basic website, on here you will find not so basic
-          things.
-        </p>
+      <div class="div">
+        <div class="divTitle">
+          <h4>Title</h4>
+        </div>
+
+        <div class="divContent">
+          <p>
+            This is a not so basic website, on here you will find not so basic
+            things, such as mobile first design
+          </p>
+        </div>
       </div>
-      <div class="div2">
+      <div class="div div2">
         <h4>Title</h4>
       </div>
-      <div class="div3">
-        <h4>Title</h4>
-      </div>
-      <div class="div4">
+      <div class="div">
         <h4>Title</h4>
       </div>
     </main>
 
     <footer>
-      <div class="footerContent">
-        <p>content</p>
-      </div>
-      <div class="footerContent">
-        <ul>
-          <li>
-            <a href="https://theuselessweb.com/" target="_blank">Link</a>
-          </li>
-          <li>
-            <a href="https://screamintothevoid.com/" target="_blank">Link</a>
-          </li>
-          <li>
-            <a href="https://findtheinvisiblecow.com/" target="_blank">Link</a>
-          </li>
-          <li>
-            <a href="http://shutupandtakemymoney.com/" target="_blank">Link</a>
-          </li>
-        </ul>
+      <div class="footerContainer">
+        <div class="footerContent">
+          <h6>Less basic Website</h6>
+        </div>
+
+        <div class="middleContent">
+          <p>Content</p>
+        </div>
+
+        <div class="footerContent">
+          <ul>
+            <li>
+              <a href="https://theuselessweb.com/" target="_blank"
+                >A Useful Link</a
+              >
+            </li>
+            <li>
+              <a href="https://screamintothevoid.com/" target="_blank"
+                >An Equally Useful Link</a
+              >
+            </li>
+            <li>
+              <a href="https://findtheinvisiblecow.com/" target="_blank"
+                >Also Another Useful Link</a
+              >
+            </li>
+            <li>
+              <a href="http://shutupandtakemymoney.com/" target="_blank"
+                >Yet Another Useful Link</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
